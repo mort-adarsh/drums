@@ -16,6 +16,7 @@ document.addEventListener("keydown", function(event) {
   makesound(event.key);
   
   btanim(event.key);
+    console.log(event.key);
 });
 
 function makesound(key) {
