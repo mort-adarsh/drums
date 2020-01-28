@@ -14,6 +14,7 @@ for (var i = 0; i < n; i++) {
 
 document.addEventListener("keydown", function(event) {
   makesound(event.key);
+  
   btanim(event.key);
 });
 
